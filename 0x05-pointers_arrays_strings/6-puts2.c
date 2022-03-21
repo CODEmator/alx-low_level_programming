@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * puts2 - main function.
  * @str: Pointer, the string to print.
