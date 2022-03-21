@@ -1,19 +1,19 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
- * puts2 - main function.
- * @str: Pointer, the string to print.
+ * puts2 - this function prints every other character of a string
+ * (Divisible by two)
+ * @str: pointer, the string to print
  *
- * Description: This function prints every other character of a string
- * (divisible by two)
- * Return: none.
+ * Return: void
  */
 
 void puts2(char *str)
 {
-	int i;
+	int i = 0;
 
-	while (str[i])
+	while (str[i] != '\0')
 	{
 		if (i % 2 == 0)
 		{
